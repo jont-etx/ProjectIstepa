@@ -1,0 +1,21 @@
+```
+# Dungeons and Creation
+Dungeons are player-created challenges with monsters, puzzles, and feats. Creators place assets; explorers navigate with heroes. A multi-tiered voting system allows players to rate dungeons post-completion, rewarding both voters and creators.
+
+**Creation Mechanics**:
+- **Editor**: Voxel-based tools for terrain, asset placement. Point system: Assets have costs/points (e.g., Goblin Minion: 10 points/cost 50 Iron). Total points set difficulty (1-10) and rewards (random with % chances, e.g., 20% Gem drop at Level 5+).
+- **Elements**: Monsters (faction-themed, AI behaviors), Traps (spikes, illusions), Puzzles (levers, riddles), Feats (boss fights, time trials).
+- **Sharing**: Upload to server; rated by players for visibility/leaderboards.
+
+**Exploration Mechanics**:
+- **Squad Control**: Isometric real-time; command heroes (auto-pathing, abilities).
+- **Rewards**: Scaled by difficulty/nemesis (e.g., +50% vs. nemesis). Random rolls with modifiers (e.g., higher rank heroes boost %).
+
+**Voting Feature**:
+- **Multi-Tiered Rating**: After completing a dungeon, players can vote on a 1-5 star scale for categories: Difficulty (challenge level), Enjoyability (fun factor), Uniqueness (originality), Replayability (desire to replay), and Overall. Voting is optional but required for full rewards.
+- **Voter Rewards**: Submitting a vote grants diver-specific currencies (e.g., 5 Vote Credits, 10 Exploration Orbs). Rewards weighted by completion status (must complete to vote) and player reputation (e.g., kingdom rank * total completions multiplier, up to +50%).
+- **Creator Benefits**: High ratings boost dungeon popularity (e.g., +20% completions visibility on leaderboards), earning more creator-specific currencies (e.g., extra Popularity Tokens from high Uniqueness scores). Average scores displayed on dungeon listings.
+- **Anti-Abuse**: Votes from alternate accounts or bots are flagged via reputation thresholds. Minimum 5 votes for leaderboard eligibility.
+
+**Strategic Considerations**: Over-design risks low completions (fewer earnings); balanced dungeons attract repeat plays. Faction-themed building bonuses (e.g., Dwarf traps) enhance dungeon creation. Voting encourages quality designs, with replayability ratings boosting Replay Shards. Editor tools are unified across platforms for consistent creation.
+```

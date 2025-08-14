@@ -1,0 +1,20 @@
+```
+# Monetization and Economy
+Dungeon Realm Builder is free-to-play with a fair, non-pay-to-win monetization model. All content (factions, buildings, heroes, dungeons) is earnable through gameplay, with cosmetics as the primary revenue source. The in-game economy leverages 11 resources and multiplayer trading for depth.
+
+**Monetization**:
+- **Cosmetics**: Faction-themed visual packs for kingdoms, dungeons, heroes, and buildings (e.g., Ogre spiked castle skins, Elf glowing rune sets). Purchased via premium currency (Gems, earned or bought).
+- **Battle Pass**: Seasonal pass with cosmetic rewards (e.g., Mythical floating island tileset) and bonus prestige (+10% for subscribers). No gameplay advantages.
+- **SuperGrok Subscription**: Higher usage quotas for Grok interactions (e.g., voice commands, dungeon feedback). Details at https://x.ai/grok.
+- **x.com Premium**: Subscribed x.com users get higher Grok usage quotas for in-game interactions (e.g., market searches). Details at https://help.x.com/en/using-x/x-premium.
+- **No Pay-to-Win**: All gameplay assets (e.g., Tier 5 Ogre Grog Hall, epic heroes) are unlocked via ranks/achievements, not purchases.
+
+**In-Game Economy**:
+- **Resources**: 11 types (Iron, Wood, Stone, Copper, Gold, Crystals, Gems, Mythril, Artifacts, Runes, Manuscripts) drive building, crafting, and trading. See Resources and Currencies section.
+- **Trading**: Market buildings enable player-to-player resource trades (e.g., 100 Wood for 50 Iron). Faction bonuses (e.g., Human +15% trade profit) encourage specialization.
+- **Hiring**: Tavern/Magicians School services (e.g., hiring Elf magic heroes) cost Gold/Resources. Faction-specific bonuses (e.g., Undead summon duration) add value.
+- **Rewards**: Dungeon completions yield resources scaled by difficulty/nemesis (e.g., +30% Gems vs. nemesis). Creators earn based on player completions.
+- **Events**: Seasonal events (e.g., “Mythril Rush”) boost rare resource drops, encouraging playtime without purchases.
+
+**Balance Notes**: Cosmetic purchases don’t affect gameplay (e.g., Nature vine skins are visual only). Resource scarcity promotes trading (e.g., Dwarves trade Iron for Elf Runes). Cross-platform market UI ensures seamless trading. Economy balances casual (quick resource gains) and hardcore (rare resource grinds) playstyles.
+```

@@ -1,0 +1,85 @@
+```
+# Additional Dungeon Assets
+This section expands the dungeon creation system with new asset categories: keys, objects, decor, spells, effects, fog of war effects, and miscellaneous elements. These assets enhance dungeon diversity, strategic depth, and immersion, aligning with faction themes (e.g., Undead necrotic effects, Goblin mechanical gadgets). Assets are unlocked via kingdom ranks, Library research, or purchases with currencies (common: Gold, Materials; creator: Popularity Tokens, Death Essence; diver: Loot Coins, Feat Artifacts). Each asset has a point value for difficulty calculation and costs in resources/currencies. The cross-platform editor (PC drag-and-drop, mobile tap-to-place) ensures intuitive placement, with faction bonuses reducing costs or enhancing effects (e.g., Elves -15% on spell costs).
+
+## Asset Unlocks and Costs
+- **Unlocks**: Assets range from basic (Rank 1) to epic (Rank 10). Unlocked via kingdom progression, Library research (e.g., for spells), or Market purchases (e.g., decor with Gems). Faction bonuses apply (e.g., Dwarves -15% on mechanical objects).
+- **Costs**: Basic assets use common resources (Materials, Gold); advanced assets require creator/diver currencies (e.g., 50 Vote Credits for epic spells). Cosmetic variants cost Gems for aesthetics.
+- **Point System**: Assets contribute to dungeon difficulty (e.g., basic key: 3 points, epic fog effect: 20 points). Total points determine level and reward scaling.
+- **Voting Integration**: Unique assets (e.g., creative decor or complex effects) boost Uniqueness and Replayability voting scores, increasing creator currencies (e.g., Fame Points).
+
+## Keys
+Items heroes must collect to unlock areas, portals, or rewards. Can be hidden or guarded.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Basic Keys | Iron Key (Human), Bone Key (Undead). | Rank 1 | T1: 15 Materials. T5: 80 Materials + 20 Loot Coins. | 3-10 | Unlocks doors/portals; placeable in chests or on monsters. |
+| Puzzle Keys | Rune Key (Elf), Gear Key (Dwarf). | Rank 3 | T1: 20 Mana. T5: 100 Mana + 30 Feat Artifacts. | 5-15 | Requires puzzle completion (e.g., lever sequence). Elves +10% puzzle key efficiency. |
+| Epic Keys | Mythic Shard Key, Nemesis Key. | Rank 7 | T1: 50 Gold + 10 Prestige. T5: 200 Gold + 50 Mythic Shards. | 10-25 | Unlocks boss rooms/rewards; nemesis keys boost Nemesis Rewards. |
+
+## Objects
+Interactive or collectible items that influence gameplay or progression.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Loot Objects | Treasure Chest, Relic Pile (Mythical). | Rank 1 | T1: 10 Gold. T5: 50 Gold + 20 Survival Gems. | 2-10 | Contains resources (e.g., Gold, Gems); breakable. |
+| Utility Objects | Healing Fountain (Troll), Mana Crystal (Elf). | Rank 3 | T1: 20 Mana. T5: 100 Mana + 30 Exploration Orbs. | 5-15 | Grants buffs (e.g., +20% health); limited uses. |
+| Quest Objects | Ogre Totem, Goblin Gadget. | Rank 5 | T1: 30 Materials + 10 Prestige. T5: 150 Materials + 40 Vote Credits. | 8-20 | Triggers feats (e.g., collect 3 totems); boosts Replay Shards. |
+
+## Decor
+Non-interactive aesthetics for immersion and Uniqueness voting.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Static Decor | Skulls (Undead), Vines (Nature), Statues (Human). | Rank 1 | T1: 10 Gems. T5: 50 Gems + 10 Prestige. | 1-5 | Purely visual; increases Uniqueness votes. |
+| Animated Decor | Flickering Torches, Floating Orbs (Mythical). | Rank 3 | T1: 20 Gems. T5: 100 Gems + 20 Fame Points. | 2-8 | Subtle animations; mobile-optimized for performance. |
+| Thematic Decor | Explosive Barrels (Goblin), Rune Circles (Elf). | Rank 5 | T1: 30 Gems. T5: 150 Gems + 30 Replay Shards. | 3-10 | Faction-themed; boosts faction-specific votes (e.g., Goblin +10% Uniqueness). |
+
+## Spells
+Castable effects placed in dungeons, activated by triggers or heroes.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Offensive Spells | Fireball (Human), Necrotic Bolt (Undead). | Rank 2 | T1: 20 Mana. T5: 100 Mana + 30 Death Essence. | 5-15 | Deals damage; faction bonuses (e.g., Elves +15% spell accuracy). |
+| Defensive Spells | Healing Aura (Troll), Shield Rune (Dwarf). | Rank 3 | T1: 25 Mana. T5: 125 Mana + 30 Heroic Essence. | 5-15 | Buffs allies; limited duration/uses. |
+| Utility Spells | Teleport (Mythical), Vine Snare (Nature). | Rank 4 | T1: 30 Mana. T5: 150 Mana + 40 Vote Credits. | 8-20 | Alters gameplay (e.g., repositions heroes); high Replayability score. |
+
+## Effects
+Dynamic environmental or visual effects tied to triggers or areas.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Combat Effects | Poison Cloud (Nature), Lightning Strike (Elf). | Rank 3 | T1: 25 Materials + 10 Mana. T5: 125 Materials + 40 Nemesis Rewards. | 5-15 | Damages/debuffs; triggerable (e.g., pressure plate). |
+| Visual Effects | Glowing Runes (Elf), Shadow Pulse (Undead). | Rank 2 | T1: 15 Gems. T5: 75 Gems + 20 Fame Points. | 2-8 | Aesthetic; boosts Uniqueness votes; no gameplay impact. |
+| Status Effects | Slow Field, Burn Aura. | Rank 4 | T1: 30 Mana. T5: 150 Mana + 30 Survival Gems. | 8-20 | Applies debuffs (e.g., -10% speed); counterable by hero skills. |
+
+## Fog of War Effects
+Environmental effects that obscure vision or alter gameplay. Applied to rooms or areas.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Visibility Effects | Fog (basic), Darkness (Undead), Mist (Troll). | Rank 2 | T1: 20 Mana. T5: 100 Mana + 20 Exploration Orbs. | 5-15 | Reduces hero vision range; countered by spells (e.g., Elf light rune). |
+| Weather Effects | Rain (Nature), Snowstorm (Human). | Rank 3 | T1: 25 Materials. T5: 125 Materials + 30 Vote Credits. | 8-20 | Slows movement or adds debuffs (e.g., rain -10% accuracy). |
+| Hazardous Effects | Gas Cloud (Goblin), Toxic Mist (Nature). | Rank 4 | T1: 30 Mana. T5: 150 Mana + 40 Death Essence. | 10-25 | Deals periodic damage; requires hero resistance (e.g., Troll regen). |
+
+## Miscellaneous Elements
+Unique assets for creative flexibility and strategic depth.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Trap Enhancers | Explosive Rune (Goblin), Regenerating Spikes (Troll). | Rank 3 | T1: 20 Materials + 10 Gold. T5: 100 Materials + 30 Replay Shards. | 5-15 | Upgrades existing traps (e.g., +20% damage); boosts Difficulty votes. |
+| Dynamic Objects | Collapsing Bridge, Shifting Wall (Dwarf). | Rank 4 | T1: 30 Materials. T5: 150 Materials + 40 Feat Artifacts. | 8-20 | Changes layout on trigger; increases Replayability votes. |
+| Reward Triggers | Hidden Cache, Feat Totem. | Rank 5 | T1: 25 Gold + 10 Prestige. T5: 125 Gold + 50 Mythic Shards. | 10-25 | Grants bonus resources (e.g., Loot Coins) on conditions (e.g., no deaths). |
+
+**Strategic Considerations**:
+- **Early Game**: Use basic keys (Iron Key) and decor (Static Skulls) for simple layouts; fog effects (Fog) add challenge with low cost. Focus on common resources (Materials, Gold).
+- **Mid Game**: Combine puzzle keys with spells (e.g., Vine Snare + Rune Key) for complex dungeons; use weather effects (Rain) to boost Difficulty votes. Leverage creator currencies (Vote Credits) for unique assets.
+- **Late Game**: Craft epic assets (Mythic Shard Key, Toxic Mist) with Mythic Shards; dynamic objects (Shifting Wall) and reward triggers enhance Replayability and Uniqueness scores.
+**Balance Notes**: 
+- Asset points balance difficulty (e.g., Hazardous Gas Cloud +25 points vs. Static Decor +1 point). 
+- Costs scale with rarity: basic assets use common resources, epic assets require diver/creator currencies (e.g., 50 Mythic Shards for Nemesis Key). 
+- Faction bonuses enhance efficiency (e.g., Goblins -10% on trap enhancers, Elves +15% on spell effects). 
+- Fog of war effects optimized for mobile (low rendering load); UI includes toggle for visibility effects. 
+- Voting rewards tied to creative use (e.g., decor + Uniqueness, dynamic objects + Replayability). 
+- Cloud sync ensures asset placement persists across platforms.
+```

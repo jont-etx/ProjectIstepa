@@ -1,0 +1,24 @@
+```
+# Core Gameplay
+Players manage a kingdom while creating and exploring dungeons in a persistent multiplayer world. The gameplay loop integrates resource gathering, building, creation, social interactions, and voting for a balanced experience.
+
+**Core Mechanics**:
+1. **Kingdom Management**: Build and upgrade faction-themed structures (5 tiers) on a 128x128 tile map using resources. Buildings generate passive common resources (e.g., Gold from Market), attract heroes, offer hireable services, and provide faction-specific bonuses.
+2. **Hero Exploration**: Hire heroes from your tavern or other players. Lead squads (up to 4 heroes) through dungeons to gather diver-specific resources (e.g., Loot Coins), defeat monsters, solve puzzles, and complete feats for rewards.
+3. **Dungeon Creation**: Design custom dungeons using unlocked assets (monsters, traps, tilesets). Place elements strategically; a point system auto-calculates difficulty and rewards. Share for others to play, earning creator-specific resources (e.g., Popularity Tokens) based on completions and votes.
+4. **Multiplayer Interactions**: Trade resources/currencies, hire heroes/services, collaborate on dungeons, or compete via leaderboards. Voting on dungeons post-completion rewards voters with diver resources and creators with creator currencies.
+5. **Progression**: Earn prestige from dungeon completions/creations/votes to rank up your kingdom (1-10). Higher ranks unlock assets, larger dungeon sizes, and advanced building upgrades.
+6. **Combat and Puzzles**: Isometric real-time combat with hero abilities (faction-specific). Puzzles include lever systems, rune matching, or environmental challenges.
+
+**Win Conditions (Per Session/Season)**:
+- **Prestige Leader**: Highest kingdom prestige at season end (e.g., 3 months real-time).
+- **Dungeon Master**: Most player completions/rewards/votes from created dungeons.
+- **Explorer Elite**: Most diver resources gathered from explorations.
+- **Cooperative Victory**: Alliances achieve shared goals (e.g., collective prestige milestones for server-wide rewards).
+
+**Strategic Considerations**:
+- **Early Game**: Focus on common resources (Gold, Materials) and low-level dungeons; upgrade Tavern/Market to Tier 2 for passive generation and basic hires.
+- **Mid Game**: Build specialized buildings (e.g., Library for puzzle assets); explore for diver currencies (Survival Gems) and create for creator currencies (Vote Credits); vote on dungeons for extra rewards.
+- **Late Game**: Create massive dungeons (up to 256x256+); maximize passive common resources from Tier 5 buildings; trade currencies (e.g., Death Essence for Exploration Orbs).
+Balance Notes: Resource categories encourage both creating and exploring. Voting adds social layer, with weighted rewards preventing spam. Faction-themed building functions enhance strategic diversity while maintaining cross-platform UI consistency.
+```

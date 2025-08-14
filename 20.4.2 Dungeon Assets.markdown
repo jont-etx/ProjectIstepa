@@ -1,0 +1,79 @@
+```
+# Dungeon Assets
+Dungeon assets are the building blocks for creating custom dungeons, allowing players to design unique challenges. Assets are unlocked through kingdom ranks, research in buildings (e.g., Library for puzzles), purchases with currencies (e.g., Popularity Tokens for traps), and faction-specific bonuses (e.g., Goblins excel in traps). Assets have point values for difficulty calculation and costs in resources/currencies. Faction-themed variants enhance replayability (e.g., Ogre monsters have high health). Assets are categorized into tiles, monsters, traps, portals, triggers/logic, puzzles, and areas of influence. Cross-platform editor tools ensure intuitive placement (drag-and-drop on PC, tap on mobile).
+
+## Asset Unlocks and Costs
+- **Unlocks**: Assets start at basic (Rank 1) and advance to epic (Rank 10). Faction bonuses reduce costs (e.g., Dwarves -15% on mechanical traps). Some require specific currencies (e.g., Replay Shards for replayable puzzles).
+- **Costs**: Base in common resources (Materials, Gold); advanced use creator/diver currencies (e.g., 50 Death Essence for undead traps).
+- **Point System**: Each asset adds points to difficulty (e.g., basic monster: 5 points, epic puzzle: 50 points). Total points determine level/rewards.
+- **Customization**: Cosmetic skins (purchased with Gems) alter visuals without affecting gameplay (e.g., neon Goblin traps).
+
+## Tiles
+Basic building blocks for terrain and aesthetics. Faction-themed tiles auto-apply but can be mixed.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Floor Tiles | Dirt (basic), Stone (Dwarf), Vines (Nature), Bone (Undead). | Rank 1+ | T1: 10 Materials. T5: 50 Materials + 20 Mana. | 1-5 | Affects movement (e.g., vines slow heroes). |
+| Wall Tiles | Wood Barriers, Iron Walls (Dwarf), Illusion Mirrors (Mythical). | Rank 2+ | T1: 20 Materials. T5: 100 Materials + 30 Gems. | 2-10 | Blocks paths; destructible variants add strategy. |
+| Decor Tiles | Boulders (Ogre), Explosives (Goblin), Glowing Runes (Elf). | Rank 3+ | T1: 15 Gold. T5: 50 Gold + 10 Prestige. | 1-3 | Aesthetic; some interactive (e.g., hiding loot). |
+
+## Monsters
+Faction-themed enemies with AI behaviors (e.g., patrol, ambush). Used for combat challenges.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Basic Monsters | Goblin Minion, Ogre Brute, Elf Archer. | Rank 1+ | T1: 20 Materials + 10 Gold. T5: 100 Materials + 50 Heroic Essence. | 5-20 | Stats: Health, Damage, Speed. Faction bonuses (e.g., Undead +10% summon hordes). |
+| Boss Monsters | Troll Regenerator, Mythical Phoenix, Nature Treant. | Rank 5+ | T1: 50 Mana + 20 Gems. T5: 200 Mana + 50 Mythic Shards. | 30-100 | Special abilities (e.g., regeneration, illusions); nemesis boosts rewards. |
+| Summoned Monsters | Undead Skeletons, Nature Animals. | Rank 3+ | T1: 30 Mana. T5: 150 Mana + 30 Nemesis Rewards. | 10-40 | Triggered by portals/traps; limited duration. |
+
+## Traps
+Hidden dangers activated by heroes. Faction-specific effects (e.g., Goblin explosives).
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Damage Traps | Spikes (basic), Fire Pits (Troll), Explosives (Goblin). | Rank 1+ | T1: 15 Materials. T5: 80 Materials + 40 Death Essence. | 5-15 | Deals damage; upgradable (e.g., poison variants). |
+| Debuff Traps | Slow Vines (Nature), Illusion Fog (Mythical). | Rank 2+ | T1: 20 Mana. T5: 100 Mana + 30 Vote Credits. | 8-20 | Applies effects (slow, confuse); counterable by heroes. |
+| Trigger Traps | Pressure Plates, Laser Beams (Dwarf). | Rank 4+ | T1: 30 Gold. T5: 150 Gold + 40 Fame Points. | 10-25 | Activates other assets (e.g., summon monsters). |
+
+## Portals
+Gateways for navigation or events. Used for multi-room dungeons.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Teleport Portals | Basic Door, Dimensional Gate (Mythical). | Rank 2+ | T1: 25 Mana. T5: 120 Mana + 30 Exploration Orbs. | 5-15 | Links areas; one-way or bidirectional. |
+| Exit Portals | Victory Gate, Escape Hatch. | Rank 1+ | T1: 10 Gold. T5: 50 Gold + 20 Loot Coins. | 3-10 | Ends dungeon; optional for open designs. |
+| Summon Portals | Monster Spawn (Undead), Animal Call (Nature). | Rank 3+ | T1: 40 Materials. T5: 200 Materials + 50 Nemesis Rewards. | 10-30 | Spawns enemies on trigger. |
+
+## Triggers and Logic
+Event systems for dynamic dungeons. Allows complex interactions.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Basic Triggers | Pressure Switch, Lever Pull. | Rank 2+ | T1: 20 Materials. T5: 100 Materials + 30 Feat Artifacts. | 5-10 | Activates traps/portals; simple on/off. |
+| Logic Gates | AND/OR conditions (e.g., two levers for door). | Rank 4+ | T1: 30 Mana. T5: 150 Mana + 40 Replay Shards. | 10-20 | Chains events (e.g., puzzle sequences). |
+| Advanced Logic | Timer, Counter (e.g., kill 5 monsters to open). | Rank 6+ | T1: 50 Gold. T5: 250 Gold + 50 Fame Points. | 15-30 | Programmable (simple scripting UI); increases uniqueness votes. |
+
+## Puzzles
+Interactive challenges requiring logic or skill.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Lever Puzzles | Switch sequences, Rune Matching (Elf). | Rank 3+ | T1: 25 Mana. T5: 125 Mana + 40 Vote Credits. | 10-25 | Solvable by heroes; rewards Mana/Feat Artifacts. |
+| Environmental Puzzles | Vine Climbing (Nature), Mirror Reflections (Mythical). | Rank 4+ | T1: 30 Materials. T5: 150 Materials + 30 Survival Gems. | 15-30 | Uses terrain; faction bonuses (e.g., Elves +15% solve speed). |
+| Riddle Puzzles | Text-based enigmas, Logic Gates. | Rank 5+ | T1: 40 Gold. T5: 200 Gold + 50 Mythic Shards. | 20-40 | Voice mode support (Grok apps) for hints. |
+
+## Areas of Influence
+Zones that apply effects to heroes/monsters.
+
+| Asset Type | Examples | Unlocks At | Cost Example | Point Value | Notes |
+|------------|----------|------------|--------------|-------------|-------|
+| Buff Zones | Healing Aura (Troll), Strength Field (Ogre). | Rank 3+ | T1: 30 Mana. T5: 150 Mana + 40 Heroic Essence. | 8-20 | Boosts allies (e.g., +10% health regen). |
+| Debuff Zones | Poison Swamp (Nature), Fear Zone (Undead). | Rank 4+ | T1: 40 Materials. T5: 200 Materials + 30 Nemesis Rewards. | 10-25 | Hinders enemies (e.g., -10% speed). |
+| Neutral Zones | Neutral Ground (Human), Illusion Field (Mythical). | Rank 5+ | T1: 50 Gold. T5: 250 Gold + 50 Exploration Orbs. | 12-30 | Environmental effects (e.g., random teleports). |
+
+**Strategic Considerations**:
+- **Early Game**: Use basic tiles/monsters for simple dungeons; unlock traps with Popularity Tokens for lethality.
+- **Mid Game**: Combine triggers/logic with puzzles for uniqueness votes; use areas of influence to boost replayability (e.g., Nature buff zones for adaptive runs).
+- **Late Game**: Craft epic assets with Mythic Shards (e.g., Dwarf boss with logic gates); mix faction assets for hybrid dungeons.
+**Balance Notes**: Asset points ensure fair difficulty (e.g., epic monster +50 points). Costs scale with rarity (basic: common resources, epic: diver/creator currencies). Faction bonuses reduce costs (e.g., Goblins -10% on traps). Cross-platform editor supports voxel placement with snap-to-grid for mobile precision.
+```

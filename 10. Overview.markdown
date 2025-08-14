@@ -1,0 +1,23 @@
+```
+Dungeon Realm Builder Game Design Document - Overview
+
+# Overview
+Dungeon Realm Builder is a voxel/isometric-based multiplayer dungeon creator game blending kingdom management, resource gathering, hero-led exploration, and user-generated content. Players control a kingdom, expanding it by gathering resources from dungeons they explore with hired heroes or create for others to challenge. The game emphasizes creativity in dungeon design (monsters, puzzles, traps) and strategic kingdom growth through buildings, services, and multiplayer interactions like hiring or trading.
+
+**Core Loop**: Explore dungeons for resources → Build/upgrade faction-themed buildings to unlock assets → Create dungeons for others → Earn rewards from player challenges → Repeat to gain prestige and rank up.
+
+The game supports up to 100+ players per server shard, with cross-server dungeon sharing. It's free-to-play, with all content earnable through gameplay, achievements, and events. Optional cosmetics (themes for kingdoms, dungeons, heroes, buildings) are purchasable. Progression focuses on kingdom ranks (1-10), unlocking advanced assets, larger maps, and faction-specific building functions. No pay-to-win elements; cosmetics are purely visual.
+
+**Key Features**:
+- Voxel/isometric view for intuitive building and exploration.
+- Multiplayer economy: Hire heroes/services from other players, trade resources, share dungeons.
+- Faction system with strengths, weaknesses, and nemeses; each with unique building names/themes/functions.
+- Procedural and player-created dungeons with puzzles, monsters, and feats.
+- Kingdom building on a 128x128 tile map with free placement.
+- Upgradable buildings (5 tiers) with faction-specific bonuses, unlocking services, hero types, and buffs.
+- 10 dungeon difficulty levels with scalable sizes (32x32 min, increments of 16 tiles).
+- Multiple currencies/resources for diverse building/economy.
+- Cross-platform compatibility: Seamless play across PC, mobile, web, and potential consoles.
+
+**Target Audience**: Fans of Minecraft, Roblox, Dungeon Keeper, and The Legend of Zelda (for puzzles), aged 12+, seeking creative, social, and strategic gameplay. Sessions last 30-60 minutes, with persistent kingdoms for long-term progression.
+```

@@ -1,0 +1,17 @@
+```
+# Maps and World Generation
+The game features persistent player kingdoms and shareable dungeons in a voxel/isometric view for precise placement and navigation.
+
+**Kingdom Maps**:
+- **Size**: 128x128 tiles (voxels for 3D building, isometric projection).
+- **Generation**: Procedural base terrain (e.g., hills, rivers) customized by faction (e.g., forests for Elves). Free placement for buildings; faction-themed visuals applied (e.g., Undead bone structures).
+- **Expansion**: Unlock border extensions via prestige (e.g., +16 tiles at Rank 5).
+
+**Dungeon Maps**:
+- **Levels**: 10 difficulty/reward tiers.
+- **Base Size**: Starts at 32x32 (Level 1); max increases by 16x16 per level (e.g., Level 10: 32 + 9*16 = 176x176 base max).
+- **Customization**: Creators set any size >=32x32 in 16-tile increments (e.g., 48x1024 for linear adventures, 256x256 for sprawling mazes). Bonuses (e.g., achievements) add extra size.
+- **Generation**: Procedural seeds for inspiration, but fully editable. Faction tilesets auto-apply (e.g., Goblin gadgets).
+
+**Strategic Considerations**: Larger dungeons yield more rewards but require more resources to build. Kingdom maps encourage efficient layouts (e.g., central tavern for hero access). Cross-platform optimization ensures consistent rendering of faction-themed assets.
+```

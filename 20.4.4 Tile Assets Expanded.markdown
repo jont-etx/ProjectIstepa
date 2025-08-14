@@ -1,0 +1,95 @@
+```
+# Tile Assets Expanded
+Tiles are the foundational assets for dungeon creation in *Dungeon Realm Builder*, defining terrain, aesthetics, and gameplay mechanics. This section details tile assets, focusing on navigability, appearance, and interaction, with faction-specific themes enhancing immersion and strategy. Each tile has a cost, dungeon score (for voting metrics like Uniqueness/Replayability), and difficulty rating, contributing to the dungeon’s overall difficulty and rewards for divers. Only assets in accessible areas (determined by heat maps) affect difficulty and rewards, preventing unrewarding “empty islands.” Tiles are unlocked through kingdom ranks, Library research, or Market purchases using common (Gold, Materials), creator (Popularity Tokens, Vote Credits), or diver (Loot Coins, Feat Artifacts) currencies. Faction-specific discounts reduce costs for aligned assets (e.g., Dwarves -20% on mechanical tiles). The cross-platform editor ensures intuitive placement (PC drag-and-drop, mobile tap-to-place with snap-to-grid).
+
+## Tile Unlocks and Costs
+- **Unlocks**: Tiles range from basic (Rank 1) to epic (Rank 10). Unlocked via kingdom progression, Library research (e.g., for advanced terrain), or Market purchases (e.g., cosmetic tiles with Gems).
+- **Faction Discounts**: Each faction receives a 20% cost reduction on their themed tile assets (e.g., Elves -20% on magical tiles, Goblins -20% on mechanical tiles). Discounts apply to resource costs only (not quantities).
+- **Costs**: Basic tiles use common resources (Materials, Gold); advanced tiles require creator/diver currencies (e.g., 50 Death Essence for necrotic tiles). Cosmetic skins cost Gems for visual flair.
+- **Dungeon Score**: Tiles contribute to voting metrics (Uniqueness for aesthetics, Replayability for interactivity). Higher scores increase creator rewards (e.g., Fame Points, Vote Credits).
+- **Difficulty Rating**: Each tile has a difficulty rating (1-10) based on its impact (e.g., hazardous tiles = higher rating). Only tiles in accessible areas (per heat maps) count toward dungeon difficulty/rewards.
+- **Point System**: Tiles add points to dungeon difficulty (e.g., basic floor: 1 point, epic dynamic tile: 15 points). Total points determine level and reward scaling.
+- **Voting Integration**: Creative tile combinations boost Uniqueness votes; interactive/dynamic tiles increase Replayability scores, earning creators more Fame Points or Vote Credits.
+
+## Accessibility and Heat Maps
+- **Accessibility Requirement**: Only tiles in areas reachable by divers (via paths, portals, or triggers) contribute to dungeon difficulty and rewards. Inaccessible “empty islands” (e.g., isolated rooms packed with hazards) are excluded to prevent exploit designs.
+- **Heat Map System**: The editor uses heat maps to analyze diver pathing:
+  - **Green Zones**: High accessibility (main paths, connected rooms). Tiles here fully count toward difficulty/rewards.
+  - **Yellow Zones**: Partial accessibility (e.g., puzzle-locked areas). Tiles count at 50% unless unlocked by common hero skills (e.g., Elf detection spells).
+  - **Red Zones**: Inaccessible (e.g., no path or portal). Tiles excluded from difficulty/reward calculations.
+  - **UI Feedback**: Editor displays heat maps (PC: overlay toggle, mobile: simplified color indicators) to guide creators. Alerts flag designs with >20% red zones to encourage accessibility.
+- **Reward Scaling**: Accessible tiles scale rewards (e.g., +10% Loot Coins for hazardous floors in green zones). Feat rewards (e.g., Feat Artifacts for no-damage runs) require green/yellow zone interactions.
+
+## Tile Categories and Properties
+Tiles are categorized by type (floor, wall, decor) with navigability, visual, gameplay properties, costs, dungeon scores, and difficulty ratings. Navigability affects hero movement, visuals align with faction themes, and gameplay includes interactive/destructible mechanics.
+
+### Floor Tiles
+Define walkable surfaces, influencing movement and strategy. All are navigable unless specified.
+
+| Tile Type | Examples | Unlocks At | Cost Example | Point Value | Dungeon Score | Difficulty Rating | Navigability | Appearance | Gameplay Notes | Faction Bonus |
+|-----------|----------|------------|--------------|-------------|---------------|-------------------|--------------|------------|---------------|---------------|
+| Basic Floor | Dirt Path, Stone Floor (Human) | Rank 1 | T1: 8 Materials (Human: 6.4). T5: 40 Materials + 8 Gold (Human: 32 + 6.4). | 1-5 | Uniqueness: 1-3 | 1-3 | Full movement (100% speed). | Simple dirt or cobblestone; Human: polished stone with banners. | Standard pathing; no effects. | Humans: -20% cost, +10% trade profit on floors. |
+| Rough Terrain | Mud (Troll), Sand (Nature) | Rank 2 | T1: 12 Materials (Troll/Nature: 9.6). T5: 60 Materials + 16 Mana (Troll/Nature: 48 + 12.8). | 2-8 | Uniqueness: 2-5, Replayability: 1-3 | 2-5 | Reduced speed (80% for mud, 90% for sand). | Troll: sticky, mossy mud; Nature: shifting sand with roots. | Slows heroes; Nature +10% terrain manipulation. | Trolls: -20% cost, +10% regen on mud tiles; Nature: -20% cost, +10% manipulation. |
+| Hazardous Floor | Lava Pits (Ogre), Necrotic Sludge (Undead) | Rank 4 | T1: 16 Materials + 8 Mana (Ogre/Undead: 12.8 + 6.4). T5: 80 Materials + 24 Death Essence (Ogre/Undead: 64 + 19.2). | 5-15 | Uniqueness: 3-7, Replayability: 2-5 | 5-8 | Damages heroes (5 HP/sec); some impassable without spells. | Ogre: glowing lava cracks; Undead: bubbling green sludge. | Requires hero skills (e.g., Elf levitation); boosts Difficulty votes if accessible. | Ogres: -20% cost; Undead: -20% cost, +15% necrotic damage on sludge. |
+| Magical Floor | Rune Grid (Elf), Illusion Floor (Mythical) | Rank 5 | T1: 20 Mana (Elf/Mythical: 16). T5: 100 Mana + 24 Feat Artifacts (Elf/Mythical: 80 + 19.2). | 8-20 | Uniqueness: 5-10, Replayability: 3-7 | 6-10 | Alters pathing (e.g., teleports, illusions hide paths). | Elf: glowing blue runes; Mythical: shimmering, shifting patterns. | Triggers spells/effects; boosts Uniqueness votes. Elves +15% spell efficiency. | Elves: -20% cost, +15% spell efficiency; Mythical: -20% cost, +10% illusion effectiveness. |
+
+### Wall Tiles
+Define boundaries, blocking or redirecting movement. Some are destructible.
+
+| Tile Type | Examples | Unlocks At | Cost Example | Point Value | Dungeon Score | Difficulty Rating | Navigability | Appearance | Gameplay Notes | Faction Bonus |
+|-----------|----------|------------|--------------|-------------|---------------|-------------------|--------------|------------|---------------|---------------|
+| Basic Wall | Wood Barrier, Stone Wall (Dwarf) | Rank 1 | T1: 16 Materials (Dwarf: 12.8). T5: 80 Materials + 16 Gold (Dwarf: 64 + 12.8). | 2-10 | Uniqueness: 1-4 | 2-4 | Impassable; some destructible (50-200 HP). | Dwarf: iron-plated stone; Wood: crude planks. | Blocks paths; destructible walls drop loot (e.g., 5 Gold). | Dwarves: -20% cost, +15% wall durability. |
+| Reinforced Wall | Iron Wall (Dwarf), Bone Wall (Undead) | Rank 3 | T1: 24 Materials + 8 Gold (Dwarf/Undead: 19.2 + 6.4). T5: 120 Materials + 24 Loot Coins (Dwarf/Undead: 96 + 19.2). | 5-15 | Uniqueness: 2-6, Replayability: 1-3 | 4-7 | Impassable; high durability (100-500 HP). | Dwarf: gear-embossed iron; Undead: skeletal frames. | Requires hero skills to break; boosts Difficulty votes. | Dwarves: -20% cost, +15% durability; Undead: -20% cost. |
+| Interactive Wall | Secret Door (Human), Vine Wall (Nature) | Rank 4 | T1: 20 Materials + 8 Mana (Human/Nature: 16 + 6.4). T5: 100 Materials + 24 Vote Credits (Human/Nature: 80 + 19.2). | 8-20 | Uniqueness: 4-8, Replayability: 3-6 | 5-8 | Impassable unless triggered (e.g., key, lever). | Human: hidden stone panel; Nature: climbable vines. | Reveals paths; boosts Replayability votes. | Humans: -20% cost; Nature: -20% cost, +10% climb speed. |
+| Illusion Wall | Mirage Wall (Mythical), Shadow Veil (Undead) | Rank 6 | T1: 24 Mana + 8 Gems (Mythical/Undead: 19.2 + 6.4). T5: 120 Mana + 32 Mythic Shards (Mythical/Undead: 96 + 25.6). | 10-25 | Uniqueness: 6-10, Replayability: 4-8 | 7-10 | Appears impassable; passable with detection spells. | Mythical: shimmering mirrors; Undead: ghostly fog. | Countered by Elf spells; boosts Uniqueness votes. | Mythical: -20% cost, +10% illusion effectiveness; Undead: -20% cost. |
+
+### Decor Tiles
+Non-navigable, aesthetic tiles for immersion and voting appeal. Can be interactive.
+
+| Tile Type | Examples | Unlocks At | Cost Example | Point Value | Dungeon Score | Difficulty Rating | Navigability | Appearance | Gameplay Notes | Faction Bonus |
+|-----------|----------|------------|--------------|-------------|---------------|-------------------|--------------|------------|---------------|---------------|
+| Static Decor | Skulls (Undead), Statues (Human) | Rank 1 | T1: 8 Gems (Undead/Human: 6.4). T5: 40 Gems + 8 Prestige (Undead/Human: 32 + 6.4). | 1-5 | Uniqueness: 2-5 | 1-2 | Non-navigable; placed on floors/walls. | Undead: bone piles; Human: marble knight statues. | Boosts Uniqueness votes; no gameplay impact. | Humans: -20% cost, +10% trade profit; Undead: -20% cost. |
+| Animated Decor | Torches (basic), Glowing Crystals (Elf) | Rank 2 | T1: 12 Gems (Elf: 9.6). T5: 60 Gems + 16 Fame Points (Elf: 48 + 12.8). | 2-8 | Uniqueness: 3-7, Replayability: 1-3 | 1-3 | Non-navigable; light source (counters fog). | Elf: pulsating blue crystals; Torches: flickering flames. | Illuminates areas; mobile-optimized rendering. | Elves: -20% cost, +10% light radius. |
+| Interactive Decor | Explosive Barrel (Goblin), Regenerating Vines (Troll) | Rank 4 | T1: 16 Materials + 8 Gems (Goblin/Troll: 12.8 + 6.4). T5: 80 Materials + 24 Replay Shards (Goblin/Troll: 64 + 19.2). | 5-15 | Uniqueness: 4-8, Replayability: 3-6 | 3-6 | Non-navigable; triggerable (e.g., explodes, regrows). | Goblin: wired barrels; Troll: writhing green vines. | Triggers traps/effects; boosts Replayability votes. | Goblins: -20% cost, +15% explosive damage; Trolls: -20% cost, +10% regen. |
+| Thematic Decor | Gear Piles (Dwarf), Spirit Orbs (Mythical) | Rank 5 | T1: 20 Gems + 8 Prestige (Dwarf/Mythical: 16 + 6.4). T5: 100 Gems + 24 Vote Credits (Dwarf/Mythical: 80 + 19.2). | 3-10 | Uniqueness: 5-9, Replayability: 2-5 | 2-5 | Non-navigable; faction-themed visuals. | Dwarf: mechanical cogs; Mythical: floating ethereal orbs. | High Uniqueness votes; faction-specific flair. | Dwarves: -20% cost; Mythical: -20% cost, +10% illusion effectiveness. |
+
+## Navigability Mechanics
+- **Movement Modifiers**: Floor tiles adjust hero speed (e.g., Mud: 80% speed, Lava: damage + impassable without spells). Pathfinding AI adapts, shown in editor preview (green/red paths).
+- **Pathing Restrictions**: Walls block movement unless destructible or interactive. Illusion Walls allow passage with detection (e.g., Mythical heroes’ skills). Heat maps ensure accessibility.
+- **Dynamic Interactions**: Interactive tiles (e.g., Secret Door, Regenerating Vines) change state via triggers (e.g., keys, levers). Editor UI highlights navigable paths (PC: heatmap overlay, mobile: color-coded).
+- **Faction Synergies**: Bonuses enhance navigability (e.g., Nature heroes +10% speed on vine tiles; Dwarves break walls 15% faster). Only accessible tiles count for difficulty.
+
+## Appearance Details
+- **Faction Themes**:
+  - **Ogre**: Rugged, brutal (cracked lava floors, boulder walls, blood-stained decor).
+  - **Troll**: Organic, swampy (mossy mud floors, vine walls, regenerative decor).
+  - **Goblin**: Chaotic, mechanical (scrap-metal floors, wired walls, explosive decor).
+  - **Human**: Medieval, orderly (cobblestone floors, banner walls, knight statues).
+  - **Elf**: Ethereal, magical (rune-lit floors, luminescent walls, glowing crystals).
+  - **Undead**: Necrotic, decayed (sludge floors, bone walls, ghostly decor).
+  - **Dwarf**: Industrial, sturdy (iron-plated floors, gear walls, cog decor).
+  - **Mythical**: Illusory, mystical (shimmering floors, mirror walls, floating orbs).
+  - **Nature**: Verdant, alive (grassy floors, vine walls, animal decor).
+- **Visual Consistency**: Faction palettes unify aesthetics (e.g., Undead green-black, Elf blue-white). Mobile textures are low-res for performance; PC supports high-res details.
+- **Cosmetic Skins**: Gems unlock variants (e.g., neon Goblin floors, golden Human statues). No gameplay impact, boosts Uniqueness votes.
+
+## Gameplay Mechanics
+- **Destructible Tiles**: Walls/decor with HP (e.g., Wood Barrier: 50 HP, Iron Wall: 200 HP) drop loot (5-20 Gold) when broken. Requires hero skills/spells; counts for difficulty if in green/yellow zones.
+- **Interactive Tiles**: Trigger-based (e.g., Secret Door opens with Rune Key; Explosive Barrel detonates via pressure plate). Linked to triggers/logic for complex designs.
+- **Environmental Effects**: Hazardous floors (e.g., Lava Pits) apply damage/debuffs; countered by spells (e.g., Elf levitation). Magical floors trigger effects (e.g., Rune Grid teleports).
+- **Fog of War Synergy**: Tiles interact with fog effects (e.g., Torches counter Darkness; Necrotic Sludge amplifies Toxic Mist). Must be in accessible zones for Difficulty votes.
+- **Heat Map Impact**: Only green/yellow zone tiles scale difficulty/rewards (e.g., +10% Loot Coins for hazardous floors in green zones). Red zone tiles ignored to prevent exploitative designs.
+
+## Strategic Considerations
+- **Early Game**: Use basic floors (Dirt Path) and walls (Wood Barrier) for simple layouts; cheap decor (Skulls) boosts Uniqueness. Leverage faction discounts (e.g., Human -20% on Stone Floor).
+- **Mid Game**: Combine rough terrain (Mud) with interactive walls (Secret Door) for challenging paths; use Vote Credits for animated decor to boost Replayability. Ensure green zone placement via heat maps.
+- **Late Game**: Craft epic tiles (Illusion Floor, Necrotic Sludge) with Mythic Shards; dynamic layouts (e.g., Rune Grid + Shifting Walls) maximize voting scores and rewards (e.g., Nemesis Rewards).
+- **Faction Strategy**: Use faction discounts (e.g., Dwarves -20% on Iron Wall) for cost-efficient designs. Mix tiles for hybrid dungeons to boost Uniqueness (e.g., Elf runes + Goblin explosives).
+
+## Balance Notes
+- **Point Balance**: Basic tiles (1-5 points) for early designs; epic tiles (10-25 points) reward late-game creativity. Only accessible tiles count for difficulty.
+- **Cost Scaling**: Basic tiles use common resources (8-40 Materials); epic tiles require creator/diver currencies (e.g., 32 Mythic Shards for Illusion Wall). Faction discounts reduce resource costs by 20%.
+- **Accessibility Fairness**: Heat maps cap red zones at 20% of dungeon area to prevent unfair designs. Editor flags excessive impassable tiles. UI shows movement penalties (e.g., “Mud: -20% speed”).
+- **Cross-Platform**: Mobile editor uses simplified grid for precision; PC offers heatmap overlays. Cloud sync saves tile layouts.
+- **Voting Synergy**: Creative tile use (e.g., Mythical illusion maze) earns higher Uniqueness/Replayability votes, increasing Fame Points and Vote Credits.
+```

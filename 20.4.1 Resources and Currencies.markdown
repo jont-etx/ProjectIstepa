@@ -1,0 +1,46 @@
+```
+# Resources and Currencies
+The game features a refactored system with 15 currencies/resources divided into three categories: 5 creator-specific (earned by dungeon creators from player interactions), 5 diver-specific (earned by explorers from dungeon runs), and 5 common (earned from both activities, plus passive generation from kingdom buildings with faction bonuses). All are tradeable except rare ones like Mythic Shards (account-bound). Faction bonuses enhance yields (e.g., Elves +10% Runes). UI shows earnings in real-time, with cross-platform tables/icons for clarity.
+
+## Common Resources (Earned from Both + Passive)
+These are versatile for building, crafting, and progression. Passive earnings from buildings (e.g., Tavern generates Gold daily), boosted by upgrades and faction bonuses.
+
+| Resource | Description | Primary Sources | Passive Generation | Faction Bonus |
+|----------|-------------|-----------------|---------------------|---------------|
+| Gold | General currency for trades, hires, basic upgrades. | Dungeon completions (both sides), trades. | Market: 50/day (T1), +20% per tier. | Humans: +15% from trades. |
+| Prestige | For kingdom ranking and unlocks. | Completions, votes (both sides). | Tavern: 10/day (T1), +10% per tier. | All: +10% from nemesis activities. |
+| Materials | Combo of Wood/Stone/Iron for structures/gear. | Gathering, dungeon loot (both). | Carpenter/Blacksmith: 100/day (T1), +15% per tier. | Dwarves: +15% from crafting. |
+| Mana | For spells, enchantments, magic upgrades. | Puzzle solves, feats (both). | Magicians School: 20/day (T1), +10% per tier. | Elves: +15% from puzzles. |
+| Gems | For cosmetics, special purchases. | Rare drops, crafting (both). | Jeweler: 10/day (T1), +10% per tier. | Mythical: +10% from drops. |
+
+## Creator-Specific Currencies (Dungeon Creator Earned)
+Earned by creators from their dungeons being played/voted on. Used for dungeon assets, special crafts, and upgrades (e.g., Library for blueprints).
+
+| Currency | Description | Earning Mechanics | Primary Uses | Faction Bonus |
+|----------|-------------|-------------------|--------------|---------------|
+| Popularity Tokens | From dungeon completions/popularity. | +10 per unique completion, +5 per repeat. | Buy dungeon assets (e.g., traps). | Goblins: +10% from ambushes. |
+| Death Essence | From hero deaths in dungeons. | +5 per death, +10 for epic heroes. | Upgrade traps/monsters. | Undead: +15% from summons. |
+| Vote Credits | From player votes. | +5 per vote, +10 for 5-star ratings. | Craft unique feats. | Humans: +10% from enjoyability votes. |
+| Replay Shards | From repeat plays. | +3 per repeat completion. | Enhance replayability assets (e.g., randomizers). | Trolls: +10% from regeneration feats. |
+| Fame Points | From leaderboard rankings/votes. | +20 weekly for top 10%, +5 per uniqueness vote. | Reputation buffs for buildings. | Ogres: +10% from difficulty votes. |
+
+## Diver-Specific Currencies (Dungeon Diving Earned)
+Earned by explorers from completing/running dungeons. Used for hero upgrades, gear crafts, and kingdom buffs.
+
+| Currency | Description | Earning Mechanics | Primary Uses | Faction Bonus |
+|----------|-------------|-------------------|--------------|---------------|
+| Loot Coins | From completions/loot. | +20 per completion, +30 for nemesis. | Hero hires/upgrades. | Dwarves: +15% from defensive runs. |
+| Survival Gems | From surviving hard dungeons. | +10 per survival without deaths, +15 for high difficulty. | Gear crafts. | Nature: +10% from terrain feats. |
+| Feat Artifacts | From feats/puzzles. | +5 per feat, +10 for legendary. | Special items (e.g., buffs). | Elves: +15% from puzzles. |
+| Nemesis Rewards | From nemesis dungeons. | +50 per nemesis completion. | Faction buffs. | All: +20% vs. nemesis. |
+| Exploration Orbs | From discovering/completing new dungeons. | +15 per new dungeon cleared. | Map unlocks/hero XP. | Mythical: +10% from illusions. |
+
+**Voting Integration**: Voters (divers) earn +5 Survival Gems per vote, weighted by reputation (rank * completions, up to +20%). Creators gain Vote Credits based on ratings, boosting Fame Points for high scores.
+
+**Economy Notes**:
+- **Passive Bonuses**: Buildings generate common resources daily (e.g., Ogres' Crush Forge +15% Materials). Upgrades increase yields (e.g., T5 +50%).
+- **Scarcity**: Creator/diver currencies encourage activity (e.g., 100 Popularity Tokens/day cap). Common resources passive but limited without upgrades.
+- **Trading**: All tradeable via Market (e.g., exchange Death Essence for Loot Coins). Faction bonuses apply (e.g., Human +15% profit).
+- **Progression**: Early: Common for basics. Mid: Diver/creator for specialization. Late: Rares for epics.
+- **Balance**: Daily caps prevent exploits. Faction bonuses align with strengths (e.g., Undead excels in Death Essence). UI: Mobile icons, PC tables for tracking.
+```

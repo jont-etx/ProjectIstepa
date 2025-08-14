@@ -1,0 +1,20 @@
+```
+# Factions
+Nine factions provide unique playstyles, strengths, weaknesses, and nemeses. Each has a thematic tileset for dungeons/kingdoms (e.g., overgrown vines for Nature) and unique building names/functions reflecting their lore and strengths. Choosing a faction locks core assets but allows cross-faction hires. Free players start with 1 of 3 random factions; unlock others via achievements (e.g., complete 50 dungeons). Nemesis matchups increase difficulty (e.g., +20% enemy health) but boost rewards (e.g., +30% rare drops).
+
+**Faction Details**:
+
+| Faction | Strength | Weakness | Nemesis | Tileset Theme | Strategy | Building Theme |
+|---------|----------|----------|---------|---------------|----------|---------------|
+| Ogres | High health/damage in melee; bonus to trap durability. | Slow movement; vulnerable to magic. | Nature | Rocky, brutish caves with boulders. | Tanky dungeon defense; overwhelm with monsters. | Brutal, stone-heavy structures (e.g., Grog Hall). |
+| Trolls | Regeneration; excel in dark/swamp terrains. | Weak to fire/light puzzles. | Mythical | Misty swamps with regenerative flora. | Sustained fights; puzzles involving healing mechanics. | Overgrown, mossy buildings (e.g., Mire Lodge). |
+| Goblins | High speed/agility; bonus traps and ambushes. | Low health; poor against armored foes. | Dwarves | Cluttered tunnels with gadgets/explosives. | Hit-and-run tactics; puzzle-heavy with tricks. | Ramshackle, trap-laden structures (e.g., Tinker Den). |
+| Humans | Versatile; bonus to resource gathering/trading. | No extremes; average stats. | Undead | Medieval castles/towns with banners. | Balanced exploration; service-focused kingdoms. | Classic medieval architecture (e.g., Guildhall). |
+| Elves | Magic/ranged prowess; enhanced puzzle-solving. | Fragile in close combat. | Trolls | Enchanted forests with glowing runes. | Spell-based combat; intricate rune puzzles. | Ethereal, vine-wrapped buildings (e.g., Starweave Spire). |
+| Dwarves | Defense/engineering; bonus to building durability. | Slow; weak to aerial threats. | Ogres | Underground forges with mechanical traps. | Fortified dungeons; gear-crafting focus. | Sturdy, metallic structures (e.g., Ironhold Smithy). |
+| Undead | Summoning/hordes; immune to poison/fear. | Vulnerable to holy/light. | Elves | Necrotic graveyards with skeletal decor. | Swarm tactics; horror-themed feats. | Decayed, bone-infused buildings (e.g., Crypt Vault). |
+| Mythical | Flight/illusions; high evasion. | Low physical defense. | Dwarves | Ethereal realms with floating islands/mirrors. | Deceptive puzzles; aerial combat. | Mystical, glowing structures (e.g., Aether Sanctum). |
+| Nature | Summon animals/plants; terrain manipulation. | Weak to fire/industrial traps. | Humans | Overgrown jungles with vines/animals. | Environmental control; adaptive dungeons. | Organic, living buildings (e.g., Verdant Grove). |
+
+**Balance Notes**: Strengths/weaknesses are quantified (e.g., +15% stat bonuses). Nemeses encourage diverse hero squads. Faction-specific building functions align with playstyles (e.g., Dwarves boost building durability).
+```
